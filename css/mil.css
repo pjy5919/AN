@@ -40,8 +40,8 @@
 .milstext>li>span{
   color:#24130F;
 }
-
 .mils_introduce>h1{
+margin-top:60px;
 padding-bottom: 10px;
 border-bottom: 1px solid #ffffff4f;
 margin-left: 50px;
@@ -49,21 +49,16 @@ margin-left: 50px;
 
 
 .miltextbox2{
-  height: 480px;
+
+  margin-top: 25px;
+  height: 450px;
   overflow: scroll;
   overflow-x: hidden
 }
 .miltextbox2::-webkit-scrollbar {
-  width: 10px;
+opacity: 0;
 }
-.miltextbox2::-webkit-scrollbar-track {
-  background-color: rgba(253, 254, 255, 0.171);
-}
-.miltextbox2::-webkit-scrollbar-thumb { 
-  background-color: rgba(123, 158, 255, 0.342);
-border-radius: 5px;
-height: 40px;
-}
+
 .textbox{
   display: flex;
   border-bottom: 1px solid #fff;
@@ -107,3 +102,36 @@ opacity: 0;
   left:-50px;
   z-index: 100;
   width: 450px;}
+
+  .link_box>ul{
+    margin-left: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+  }
+
+  .link_box>ul>li{
+    width:200px;
+    height: 60px;
+    margin: 20px;
+    padding-left: 20px;
+    border-radius:10px;
+    background-color: #ffffff62;
+    transition: 0.4s;
+  }
+  .link_box>ul>li:hover{
+    background-color: #fff;
+
+  }
+
+  
+  .link_box>ul>li>a>p{
+    padding-top:10px;
+    font-size: 16px;
+  }
+
+  .link_box>ul>li>a>span{
+color:#858585;
+font-size: 14px;
+  }
