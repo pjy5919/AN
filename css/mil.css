@@ -53,6 +53,8 @@ margin-top: 20px;
   height: 400px;
   overflow: scroll;
   overflow-x: hidden
+  background: rgb(255,255,255);
+background: linear-gradient(198deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
 }
 .miltextbox2::-webkit-scrollbar {
 opacity: 0;
