@@ -53,8 +53,6 @@ margin-top: 20px;
   height: 420px;
   overflow: scroll;
   overflow-x: hidden;
- background:#fff;
-  border-radious:5px;
 }
 .miltextbox2::-webkit-scrollbar {
   width: 5px;
