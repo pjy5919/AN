@@ -81,11 +81,11 @@ main {
   margin: 15px;
   /* max-width: 75%; */
   height: 180px;
-  background: rgba(255, 255, 255, 0.452);
+  background: rgba(255, 255, 255, 0.253);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(18);
   border-radius: 10px;
-  border: 1.5px solid #b8b8b8;
+  border: 1.5px solid #b8b8b881;
   padding: 10px;
 }
 .line {
@@ -160,11 +160,11 @@ width: 99%;
   font-size: 12px;
 }
 .name >p{
-  color: #fff;
+  color: #ffffffad;
   font-size: 18px;
 }
 .name >p:hover{
-  color:#8C726E;
+color:#fff;
 }
 
 .face-img{
@@ -192,8 +192,7 @@ width: 99%;
     padding-bottom: 10px;
   }
   .facekeyword>p>img{
-  
-  padding-top:3px;}
+  padding:6px;}
 
   .keyword1 , .keyword{
     height: 100px;
@@ -217,7 +216,7 @@ padding-top:10px;  }
 footer{
   bottom: 0;
   font-size: 5px;
-  color:#8C726E;
+  color:#8c6e6e;
 }
 :root {
   --animate-duration: 3000ms;
