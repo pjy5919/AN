@@ -14,8 +14,7 @@
   src: url('../HeirofLightRegular.ttf') format('truetype');
 }
 html {
-  
-  background: url(../image/bg1.png) no-repeat;
+background: url(../image/bg1.png) no-repeat;
   background-size: cover;
   overflow: hidden;
   color:#ffffff;
@@ -112,7 +111,6 @@ width: 99%;
 }
 .listall > .list {
  width: 160px;
-  padding-left: 20px;
   padding-top: 20px;
   font-size: 13px;
 }
