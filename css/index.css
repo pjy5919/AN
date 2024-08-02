@@ -110,9 +110,9 @@ width: 99%;
   display: flex;
 }
 .listall > .list {
- width: 160px;
+ width: 180px;
   padding-top: 20px;
-  font-size: 13px;
+  font-size: 12px;
 }
 .title {
   color: #9A9A9A;
